@@ -69,8 +69,9 @@ h2 {
   color: var(--blue-color);
 }
 
-/* Navbar */
-
+/*--------------------------------------------------------------
+# Navbar Section
+--------------------------------------------------------------*/
 /* Navlink Hover Underline */
 .navlink-hover {
   transition: all 0.2s ease-in-out;
@@ -133,3 +134,22 @@ h2 {
 .first-card h3 {
   font-size: 2.5rem;
 }
+
+/*--------------------------------------------------------------
+# Benefits Section
+--------------------------------------------------------------*/
+.rounded-icon {
+  border: 2px solid var(--blue-hover);
+  border-radius: 50%;
+  transition: all 0.2s ease-in-out;
+}
+.rounded-icon:hover {
+  background-color: var(--blue-color);
+  color: var(--white-color);
+  transition: all 0.2s ease-in-out;
+}
+/* .rounded-icon:hover {
+  background-color: var(--blue-color);
+  color: var(--white-color);
+  transition: all 0.2s ease-in-out;
+} */

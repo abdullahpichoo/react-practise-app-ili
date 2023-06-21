@@ -20,7 +20,7 @@ const WhyUsCard = ({
     >
       {icon && <i className={`text-center icon bi bi-${icon}`}></i>}
       <h3 className={`fw-bold ${!first && "fs-5"}`}>{title}</h3>
-      <p>{desc}</p>
+      <p className={`${!first && "text-secondary"}`}>{desc}</p>
       <div className="text-center">
         {first && <MyButton text="Learn More" variant="other" />}
       </div>
