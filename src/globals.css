@@ -233,3 +233,28 @@ h2 {
   background-color: var(--blue-hover);
   transition: all 0.2s ease-in-out;
 }
+
+/*--------------------------------------------------------------
+# Department Section
+--------------------------------------------------------------*/
+.department-card {
+  transition: all 0.2s ease-in-out;
+}
+.department-btn {
+  padding: 0.7rem 0 0.7rem 0;
+  border: 0;
+  background-color: transparent;
+  font-size: 1.1rem;
+}
+.department-btn-selected {
+  background-color: var(--blue-color);
+  color: var(--white-color);
+}
+
+@media (min-width: 992px) {
+  .department-btn-selected {
+    border-right: var(--blue-color) 2px solid;
+    background-color: transparent;
+    color: var(--dark-blue);
+  }
+}
