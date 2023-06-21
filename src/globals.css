@@ -105,16 +105,28 @@ h2 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#hero {
+.hero {
   width: 100%;
-  height: 90vh;
+  height: 80vh;
   background: url("../public/assets/img/hero-bg.jpg") top center;
   background-size: cover;
   margin-bottom: -200px;
+  background-attachment: fixed;
 }
 
-#hero .container {
+.hero .container {
   position: relative;
+}
+@media (max-height: 600px) {
+  .hero {
+    height: 90vh;
+  }
+}
+@media (max-width: 992px) {
+  .hero {
+    height: 80vh;
+    margin-bottom: -100px;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -152,8 +164,72 @@ h2 {
   color: var(--white-color);
   transition: all 0.2s ease-in-out;
 }
-/* .rounded-icon:hover {
+
+/*--------------------------------------------------------------
+# Services Section
+--------------------------------------------------------------*/
+.section-header {
+  width: fit-content;
+}
+.section-header p {
+  height: 2px;
+  width: 100%;
+  background-color: lightgray;
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-header p p {
+  height: 3px;
+  width: 40%;
   background-color: var(--blue-color);
-  color: var(--white-color);
+  margin: 0;
+}
+
+/* Service Card */
+.service-card-icon i {
+  padding-top: 0.7rem;
+  padding-bottom: 0.9rem;
+  padding-left: 0.9rem;
+  padding-right: 0.9rem;
+  background-color: rgba(18, 121, 211, 0.313);
+  z-index: 0;
+}
+.service-card-icon i i {
+  z-index: 3;
+  top: 9px;
+  left: 9px;
+  background-color: var(--blue-color);
+}
+.service-card {
   transition: all 0.2s ease-in-out;
-} */
+}
+/* Service Card Hover */
+.service-card:hover {
+  background-color: var(--blue-color);
+  color: var(--white-color) !important;
+  transition: all 0.2s ease-in-out;
+}
+.service-card:hover h3 {
+  color: var(--white-color) !important;
+}
+.service-card:hover p {
+  color: var(--white-color) !important;
+}
+.service-card i.main-icon {
+  transition: all 0.2s ease-in-out;
+  color: var(--white-color);
+}
+.service-card:hover i.main-icon {
+  background-color: var(--white-color);
+  color: var(--blue-color);
+  transition: all 0.2s ease-in-out;
+}
+.service-card i.icon-backdrop {
+  transition: all 0.2s ease-in-out;
+}
+.service-card:hover i.icon-backdrop {
+  background-color: var(--blue-hover);
+  transition: all 0.2s ease-in-out;
+}
