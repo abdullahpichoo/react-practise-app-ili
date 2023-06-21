@@ -5,6 +5,7 @@ body {
 
 :root {
   --blue-color: #1977cc;
+  --blue-color: #1977cc;
   --blue-hover: #3291e6;
   --white-color: #ffffff;
   --dark-blue: #2c4964;
@@ -24,6 +25,9 @@ h2 {
 /* Background Colors */
 .bg-blue {
   background-color: var(--blue-color);
+}
+.bg-blue-low-opacity {
+  background-color: rgba(25, 121, 204, 0.14);
 }
 .bg-white {
   background-color: var(--white-color);
