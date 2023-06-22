@@ -7,6 +7,7 @@ import Services from "./components/Services";
 import CreateAppointment from "./components/CreateAppointment";
 import Departments from "./components/Departments/Departments";
 import Doctors from "./components/Doctors/Doctors";
+import FAQ from "./components/FAQ/FAQ";
 // Bootstrap CSS
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
@@ -27,6 +28,7 @@ function App() {
         <CreateAppointment />
         <Departments />
         <Doctors />
+        <FAQ />
       </div>
     </main>
   );
