@@ -174,14 +174,14 @@ h2 {
 }
 .section-header p {
   height: 2px;
-  width: 100%;
+  width: 7.5rem;
   background-color: lightgray;
-  margin-top: 10%;
+  margin-top: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.section-header p p {
+.section-header p span {
   height: 3px;
   width: 40%;
   background-color: var(--blue-color);
