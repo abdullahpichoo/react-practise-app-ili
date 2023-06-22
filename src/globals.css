@@ -11,7 +11,8 @@ body {
   --dark-blue: #2c4964;
 }
 h1,
-h2 {
+h2,
+h3 {
   color: var(--dark-blue);
   font-family: "Raleway", sans-serif;
 }
@@ -295,4 +296,32 @@ h2 {
   box-shadow: none !important;
   background-color: var(--white-color) !important;
   color: var(--blue-color);
+}
+
+/*--------------------------------------------------------------
+# Gallery Section
+--------------------------------------------------------------*/
+.gallery-image {
+  transition: all 0.2s ease-in-out;
+}
+.gallery-image:hover {
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
+}
+
+/*--------------------------------------------------------------
+# Contact Section
+--------------------------------------------------------------*/
+.contact-icon {
+  font-size: 1.2rem;
+  color: var(--blue-color);
+  padding: 0.7rem 1rem 0.7rem 1rem;
+  background-color: rgba(25, 121, 204, 0.14);
+  border-radius: 50%;
+  transition: all 0.2s ease-in-out;
+}
+.contact-info:hover .contact-icon {
+  background-color: var(--blue-color);
+  color: var(--white-color);
+  transition: all 0.2s ease-in-out;
 }

@@ -69,7 +69,11 @@ const Form = ({ type }: { type: string }) => {
             </div>
           )}
         </div>
-        <textarea placeholder="Message" className="mt-3 form-control" />
+        <textarea
+          placeholder="Message"
+          className="mt-3 form-control"
+          rows={7}
+        />
         <div className="text-center mt-4">
           {type === "Appointment" ? (
             <MyButton text="Make an Appointment" variant="regular" />

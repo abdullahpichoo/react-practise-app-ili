@@ -14,12 +14,10 @@ const DoctorCard = ({
   return (
     <article className="container border card border-0 rounded-0 py-4 px-5">
       <div className="row">
-        <div className="col-4">
-          <img
-            src={image}
-            alt={name}
-            className="img-fluid rounded-circle dr-card-image"
-          />
+        <div className="col-4 ">
+          <div className="rounded-circle overflow-hidden">
+            <img src={image} alt={name} className="img-fluid dr-card-image " />
+          </div>
         </div>
         <div className="col-8">
           <h3 className="fw-bold text-dark-blue mb-1">{name}</h3>

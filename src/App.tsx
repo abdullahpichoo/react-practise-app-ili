@@ -8,6 +8,8 @@ import CreateAppointment from "./components/CreateAppointment";
 import Departments from "./components/Departments/Departments";
 import Doctors from "./components/Doctors/Doctors";
 import FAQ from "./components/FAQ/FAQ";
+import Gallery from "./components/Gallery";
+import Contact from "./components/Contact";
 // Bootstrap CSS
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
@@ -29,6 +31,8 @@ function App() {
         <Departments />
         <Doctors />
         <FAQ />
+        <Gallery />
+        <Contact />
       </div>
     </main>
   );
