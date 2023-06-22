@@ -13,6 +13,7 @@ body {
 h1,
 h2 {
   color: var(--dark-blue);
+  font-family: "Raleway", sans-serif;
 }
 
 .text-sm {
@@ -140,7 +141,7 @@ h2 {
   height: 25rem;
 }
 .card {
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  box-shadow: rgba(0, 0, 0, 0.109) 0px 5px 15px 0px;
 }
 @media screen and (max-width: 1200px) {
   .first-card {
@@ -257,4 +258,32 @@ h2 {
     background-color: transparent;
     color: var(--dark-blue);
   }
+}
+
+/*--------------------------------------------------------------
+# Doctor Section
+--------------------------------------------------------------*/
+.dr-card-underline {
+  width: 3rem;
+  height: 2px;
+  background-color: rgba(18, 121, 211, 0.313);
+}
+.dr-card-image {
+  transition: all 0.2s ease-in-out;
+}
+.dr-card-image:hover {
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
+}
+.icons i {
+  font-size: 0.8rem;
+  background-color: rgba(18, 121, 211, 0.313);
+  color: var(--white-color);
+  padding: 0.5rem 0.7rem 0.5rem 0.7rem;
+  transition: all 0.2s ease-in-out;
+}
+.icons i:hover {
+  background-color: var(--blue-color);
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
 }

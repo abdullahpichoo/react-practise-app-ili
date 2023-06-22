@@ -6,6 +6,7 @@ import ResourceCounts from "./components/ResourceCounts";
 import Services from "./components/Services";
 import CreateAppointment from "./components/CreateAppointment";
 import Departments from "./components/Departments/Departments";
+import Doctors from "./components/Doctors/Doctors";
 // Bootstrap CSS
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
@@ -25,6 +26,7 @@ function App() {
         <Services />
         <CreateAppointment />
         <Departments />
+        <Doctors />
       </div>
     </main>
   );
