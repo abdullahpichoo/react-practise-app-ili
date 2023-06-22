@@ -9,6 +9,7 @@ import CreateAppointment from "./components/CreateAppointment";
 import Departments from "./components/Departments/Departments";
 import Doctors from "./components/Doctors/Doctors";
 import FAQ from "./components/FAQ/FAQ";
+import Reviews from "./components/Reviews/Reviews";
 import Gallery from "./components/Gallery";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer/Footer";
@@ -33,6 +34,7 @@ function App() {
         <Departments />
         <Doctors />
         <FAQ />
+        <Reviews />
         <Gallery />
         <Contact />
       </div>
