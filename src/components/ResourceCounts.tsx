@@ -14,10 +14,10 @@ const ResourceCounts = () => {
             <Resource type="Departments" number={18} icon="hospital" />
           </div>
           <div className="col">
-            <Resource type="Research Labs" number={85} icon="funnel" />
+            <Resource type="Research Labs" number={12} icon="funnel" />
           </div>
           <div className="col">
-            <Resource type="Awards" number={85} icon="award" />
+            <Resource type="Awards" number={150} icon="award" />
           </div>
         </div>
       </div>

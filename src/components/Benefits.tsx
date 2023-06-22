@@ -12,7 +12,9 @@ const Benefit = ({
   return (
     <div className="d-flex align-items-center gap-3">
       <div>
-        <i className={`bi bi-${icon} rounded-icon p-3 text-blue fs-1`}></i>
+        <i
+          className={`bi bi-${icon} rounded-icon py-3 px-4 text-blue fs-1`}
+        ></i>
       </div>
       <div className="details">
         <h6 className="fw-bold mb-2 text-hover-blue">{title}</h6>
@@ -28,7 +30,7 @@ const Benefits = () => {
       <h3 className="text-dark-blue fw-bold">
         Enim quis est voluptatibus aliquid consequatur fugiat
       </h3>
-      <p>
+      <p className="text-secondary text-center">
         Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus.
         Non ipsam et sed minima temporibus laudantium. Soluta voluptate sed
         facere corporis dolores excepturi. Libero laboriosam sint et id nulla

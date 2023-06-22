@@ -12,8 +12,14 @@ body {
 }
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5,
+h6 {
   color: var(--dark-blue);
+  font-family: "Raleway", sans-serif;
+}
+p {
   font-family: "Raleway", sans-serif;
 }
 
@@ -47,7 +53,7 @@ h3 {
   color: var(--blue-color);
 }
 .text-dark-blue {
-  color: var(--dark-blue);
+  color: var(--dark-blue) !important;
 }
 .text-white {
   color: var(--white-color);
@@ -324,4 +330,11 @@ h3 {
   background-color: var(--blue-color);
   color: var(--white-color);
   transition: all 0.2s ease-in-out;
+}
+
+/*--------------------------------------------------------------
+# Contact Section
+--------------------------------------------------------------*/
+footer p {
+  margin-bottom: 0.2rem;
 }
