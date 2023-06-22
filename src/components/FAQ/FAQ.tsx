@@ -1,7 +1,6 @@
 import React from "react";
 import SectionHeading from "../SectionHeading";
 import FAQAccordians from "./FAQAccordians";
-import { faqList } from "../../commons/faqList";
 const FAQ = () => {
   return (
     <section className="bg-blue-low-opacity py-5 w-100">

@@ -20,7 +20,7 @@ const Reviews = () => {
         className="mySwiper"
       >
         {reviewsList.map((review) => (
-          <SwiperSlide>
+          <SwiperSlide key={review.name}>
             <ReviewCard
               key={review.name}
               image={review.image}

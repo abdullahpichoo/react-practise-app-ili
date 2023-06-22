@@ -4,7 +4,7 @@ const FAQAccordian = () => {
   return (
     <div className="accordion accordion-flush" id="accordionFlushExample">
       {faqList.map((faq, i) => (
-        <div className="accordion-item mb-3">
+        <div key={i} className="accordion-item mb-3">
           <h2 className="accordion-header d-flex  align-items-center">
             <i className="bi bi-info-circle ms-3 fs-5 text-blue"></i>
             <button

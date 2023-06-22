@@ -19,8 +19,8 @@ const Gallery = () => {
       />
       <div className="gallery-images">
         <div className="row row-cols-1 row-cols-md-3 g-1">
-          {images.map((image) => (
-            <div className="col">
+          {images.map((image, i) => (
+            <div className="col" key={i}>
               <div className="overflow-hidden">
                 <img
                   src={`assets/img/gallery/${image}`}
